@@ -19,7 +19,8 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
       DATABASE_URL="mysql://username:password@host:port/database"
       JWT_SECRET="your_jwt_secret"
       EMAIL_USER="your_email@gmail.com"
-      EMAIL_PASS="your_email_password"
+      EMAIL_PASSWORD="your_email_password"
+      EMAIL_FROM=""
 
 5. **Configurar la base de datos:**
    ```bash
