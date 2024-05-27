@@ -75,7 +75,7 @@ ecommerce-app/
 ├── insertProducts.js       # Archivo para insertar productos dentro de la Database
 └── server.js               # Archivo principal del servidor
 ```
-9.**🚀 Funcionalidades:**
+## 🚀 Funcionalidades 
 
    Autenticación:
 
@@ -101,7 +101,7 @@ ecommerce-app/
     Cambiar contraseña
     Ver órdenes de compra
 
-10.**🔧 Desarrollo**
+## 🔧 Desarrollo
    Rutas de la API
    
      Autenticación:
@@ -129,13 +129,12 @@ ecommerce-app/
       PUT /api/users/profile - Actualizar el perfil del usuario autenticado
 
       
-11.**📝 Notas:**
+## 📝 Notas:
 
     Variables de Entorno: Asegúrate de configurar correctamente las variables de entorno en el archivo .env.
     Base de Datos: Este proyecto utiliza Prisma como ORM y MySQL/MariaDB como base de datos.
 
-
-12.**💡 Contribuciones**
+## 💡 Contribuciones
 
     ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue o envía un pull request.
 
