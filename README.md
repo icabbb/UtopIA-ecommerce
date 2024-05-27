@@ -31,7 +31,7 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
     npm run dev
 
 9. **Estructura del Proyecto:**
-
+```plaintext
 ecommerce-app/
 ├── config/
 │   ├── db.js               # Configuración de la base de datos
@@ -72,7 +72,7 @@ ecommerce-app/
 ├── generateToken.js        # Archivo para generar un "Secret token" para JWT
 ├── insertProducts.js       # Archivo para insertar productos dentro de la Database
 └── server.js               # Archivo principal del servidor
-
+```
 9.**🚀 Funcionalidades:**
 
    Autenticación:
