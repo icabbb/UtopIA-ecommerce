@@ -30,7 +30,7 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
 
 7. **Iniciar la app:**
    ```bash
-    npm run dev
+    npm start
 
 9. **Estructura del Proyecto:**
 ```plaintext
