@@ -10,9 +10,10 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
    cd UtopIA-ecommerce
 
 2. **Instalar dependencias:**
+   ```bash
      npm install
 
-3. **Configurar variables de entorno:**
+4. **Configurar variables de entorno:**
   Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
      ```bash
       PORT=5000
