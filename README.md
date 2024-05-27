@@ -14,6 +14,7 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
 
 3. **Configurar variables de entorno:**
   Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
+     ```bash
       PORT=5000
       DATABASE_URL="mysql://username:password@host:port/database"
       JWT_SECRET="your_jwt_secret"
@@ -21,13 +22,15 @@ Este es un proyecto de una tienda de comercio electrónico (Ecommerce) utilizand
       EMAIL_PASS="your_email_password"
 
 5. **Configurar la base de datos:**
+   ```bash
     npx prisma db push
     npx prisma generate
 
 7. **Iniciar la app:**
+   ```bash
     npm run dev
 
-8. **Estructura del Proyecto:**
+9. **Estructura del Proyecto:**
 
 ecommerce-app/
 ├── config/
