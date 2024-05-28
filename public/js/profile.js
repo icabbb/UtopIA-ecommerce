@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const toastBody = document.getElementById('toastBody');
   const profileToast = new bootstrap.Toast(document.getElementById('profileToast'));
 
-  // Function to fetch and display user profile
+  // Funcion para mostrar la info del usuario
   async function fetchUserProfile() {
     try {
       const response = await fetch('/api/users/profile', {
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
   }
 
-  // Function to display orders
+  // Funcion para mostrar las ordenes de compra que hizo un usuario
   function displayOrders(orders) {
     orderList.innerHTML = '';
     orders.forEach(order => {
@@ -66,13 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Function to show toast notification
+  // Funcion para mostrar el toast
   function showToast(message) {
     toastBody.textContent = message;
     profileToast.show();
   }
 
-  // Event listener for password form
+  // Event listener para el cambio de password
   passwordForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const currentPassword = currentPasswordInput.value;
@@ -100,6 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Fetch user profile on page load
+  // Al recargar se muestra la info
   fetchUserProfile();
 });
